@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--UC3LO1-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uc3 lo1</title>
+
+    
+    
+    <style>
+        #main{
+            border: 2px;
+            border-style: solid;
+            margin: 20px;
+            padding: 30px;   
+    }
+
+</style>
+<script src="selectone.js"></script>
+<script src="selectall.js"></script>
+<script src="addFruit.js"></script>
+<script src="toUpperLower.js"></script>
+</head>
+
+<body>
+    
+    <div id="main">  
+        <h1 class="headings">fruit list</h1>
+        <div>
+            <label>Name:</label>
+        <input type="text" id="fruitName">
+        <br/>
+        <button onclick="slctOne()">Select One</button> 
+        <button onclick="slctAll()">Select All</button>
+        <button onclick="addFruit()">Add fruit</button> 
+        <button onclick="toUpper()">Upper/LowerCase</button>
+               
+        </div><br><br><br>
+        <select id="fruitt">
+            <option>apple</option>
+            <option>banana</option>
+            <option>orange</option>
+            <option>grapes</option>
+            <option>papaya</option>
+        </select>
+           
+
+    </div>
+    
+</body>
+</html>
